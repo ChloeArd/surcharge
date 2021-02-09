@@ -28,8 +28,9 @@ class Utilisateur {
      * Set the user's name.
      * @param string  The user name.
      */
-    public function setNom(string $nom): void {
+    public function setNom(string $nom): Utilisateur {
         $this->nom = $nom;
+        return $this;
     }
 
     /**

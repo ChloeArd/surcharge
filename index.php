@@ -15,3 +15,4 @@ $admin = new Admin("Doe");
 echo $admin->generateCode();
 
 $admin->display();
+echo $admin->getNom();
