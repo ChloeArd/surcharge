@@ -12,7 +12,15 @@ echo "<br><br>";
 
 // Admin
 $admin = new Admin("Doe");
-echo $admin->generateCode();
+$admin2 = new Admin("Jane");
 
-$admin->display();
+echo Admin::getInstancesCount();
+
+
+
+// echo $admin->generateCode();
+
+/**
+ * $admin->display();
 echo $admin->getNom();
+ * */
